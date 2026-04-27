@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>rent</servlet-name>
+        <servlet-class>RentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>rent</servlet-name>
+        <url-pattern>/rent</url-pattern>
+    </servlet-mapping>
+
+</web-app>
